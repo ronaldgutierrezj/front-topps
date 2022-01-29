@@ -1,18 +1,18 @@
-// function quantity({toppCards}) {
-//     const h1 = {
-//         textAlign: "center",
-//         marginTop: "100px",
-//         marginBottom: "50px",
-//         backgroundColor: "lightblue",
-//         color: "red",
-//         width: "500px",
-//       };
+function quantity({topps}) {
+    const h1 = {
+        textAlign: "center",
+        marginTop: "100px",
+        marginBottom: "50px",
+        backgroundColor: "lightblue",
+        color: "red",
+        width: "500px",
+      };
 
-//     var total = toppCards.reduce((total, toppCard) => total + toppCard.amount, 0).toFixed(2);
+    var total = topps.length;
 
-//     return (<div>
-//         <h1 style={h1}> Total Cards : {total} </h1>
-//         </div>
-//     )}
+    return (<div>
+        <h1 style={h1}> Total Cards : {total} </h1>
+        </div>
+    )}
 
-// export default quantity
+export default quantity

@@ -94,7 +94,7 @@ useEffect(() => {
   return (
     <div className="App">
      <h1 style={h1}>My Topp Cards</h1>
-     {/* <Quantity toppCards = {toppCards}/> */}
+     <Quantity topps = {topps}/>
      <Link to="/new"><button style={button}>Add a new Card</button></Link>
       <Switch>
         <Route
